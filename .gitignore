@@ -1,0 +1,15 @@
+# 하네스 setup.sh 가 둔 기본. 데이터 폴더를 아래에 더한다 (예: data/)
+.venv/
+venv/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+node_modules/
+.env
+*.pt
+*.pth
+*.ckpt
+*.pkl
+*.joblib
+*.h5
+*.npz

@@ -30,7 +30,7 @@
 ## 하루
 - 담당자 말: main 에 `talk` 뒤에 원문 붙여 넣기 → TALK 에 쌓이고 SPEC 반영과 다음 질문을 제안. 담당자가 README 만 되풀이하면 두 번까지 묻고 그 뒤는 SPEC 가정에 "확인 못 함"
 - 요청: main 에 「work 에 요청 써줘: …」 → main 이 번호를 알림 → work 창에서 `work` 를 치면 "NNN 할까요?" → 「응」 (또는 번호)
-- 결과: main 에 「NNN 결과 읽어줘」 → 논의 → 결정 (main 이 date, LOG, commit 을 하고 보여 준다)
+- 결과: main 에 「NNN 결과 읽어줘」 → 논의 → 결정 (main 이 date, LOG, commit 을 하고 보여 준다). commit 때 승인을 물으면 승인한다. Codex 기본 설정은 .git 쓰기를 막아서, 승인 없이 "commit 실패" 라고 하면 내가 터미널에 `git add -A && git commit -m "NNN 받음"` 을 친다
 - work 비우기: 기본은 요청 하나 끝나면 `/clear` → `work`. 같은 파일을 이어 고치는 작은 요청이면 세션을 유지한다. worktree 를 물으면 "현재 worktree 사용"
 - work 가 멈추면: `status` 에 `_ask` 가 보임 → 읽고 main 에 「NNN 답: …」 → work 에 NNN 다시
 - work 가 굳으면 (5분 넘게 출력 없음): Esc → `save` → `/clear` → `work` → 같은 번호
